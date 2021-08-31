@@ -15,11 +15,14 @@ LIGHTPURPLE='\033[1;35m'
 LIGHTCYAN='\033[1;36m'
 WHITE='\033[1;37m'
 clear
-echo -e "${GREEN}█▀█ ▄▀█ █▄▀ ░ █▀█ █▄▄ █▄▄ ${RED}"
-echo -e "█▀▀ █▀█ █░█ ▀ █▄█ █▄█ █▄█"
-echo -e ""
-echo -e "${RED}CREATED ${BLUE}PENJAHAT KELAMIN${NOCOLOR}"
-echo -e "${GREEN}COLI SAMPAI NGILU ${YELLOW}"
+echo -e "${LIGHTRED}╔═╗╔═╗╔═╗──────────╔╗────
+║╬║║╬║║║║╔══╗╔═╗╔╦╗║╚╗╔═╗${NOCOLOR}
+║╔╝║╗╣║║║╚══╝║╬║║║║║╬║║╬║
+╚╝─╚╩╝╚═╝────║╔╝╚═╝╚═╝╠╗║
+─────────────╚╝───────╚═╝"${BLUE}
+echo -e "●❯──────────────────────────────────────────────❮●"
+echo -e "${RED}            CREATED BY ${LIGHTPURPLE}PENJAHAT KELAMIN${NOCOLOR}"
+echo -e "${GREEN}                 COLI SAMPAI NGILU ${YELLOW}"
 echo -e "●❯──────────────────────────────────────────────❮●"
 function timpro {
 printf "\n"
@@ -65,8 +68,7 @@ sleep 1;
 echo -e "${LIGHTGREEN}JANGAN LUPA BERIBADAH ${NOCOLOR}KEPADA ALLAH SWT ${LIGHTGREEN}STAY HALAL "
 sleep 1;
 printf "\n"
-echo -e "Untuk memulai ketik ${GREEN}vipgamer "
-echo -e "${LIGHTGREEN}Type ${NOCOLOR}vipgamer ${LIGHTGREEN}to start ${RED}"
+echo -e "${LIGHTGREEN}Type ${BLUE}vipgamer ${LIGHTGREEN}To Start ${RED}"
 timpro
 printf "\n"
 exit
@@ -90,7 +92,7 @@ printf "\n"
 exit
 }
 printf "\n"
-echo -e "${YELLOW}Program VIPGAMER ${NOCOLOR}"
+echo -e "${YELLOW}Choose Your Option:${NOCOLOR}"
 PS3='PLEASE CHOOSE: '
 options=("INSTALL" "UNINSTALL")
 select bit in "${options[@]}"
